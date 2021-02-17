@@ -1,0 +1,16 @@
+<div class="container">
+    <div class="row py-3">
+        <div class="col-2 font-weight-bolder">
+            Logo
+        </div>
+        <div class="col-8 d-flex align-items-center justify-content-center">
+            <a routerLink='/home' *ngIf='isLogin == true' class="mx-4"> Home </a>
+            <a routerLink='/home' *ngIf='isLogin == true' class="mx-4"> Tv </a>
+            <a routerLink='/home' *ngIf='isLogin == true' class="mx-4"> Trending </a>
+        </div>
+        <div class="col-2">
+            <a routerLink='/login' class="mx-2"> Login </a>
+            <a routerLink='/register' class="mx-2"> Register </a>
+        </div>
+    </div>
+</div>

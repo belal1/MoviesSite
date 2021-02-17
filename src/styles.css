@@ -1,0 +1,15 @@
+body {
+  background-color: black;
+  color: white;
+}
+
+body a {
+  color: white;
+  text-decoration: none;
+}
+
+body a:hover {
+  color: white;
+  text-decoration: none;
+}
+/*# sourceMappingURL=styles.css.map */

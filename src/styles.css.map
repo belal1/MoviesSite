@@ -1,0 +1,14 @@
+{
+    "version": 3,
+    "mappings": "AAMA,AAAA,IAAI,CAAA;EACA,gBAAgB,EAAC,KAAK;EACtB,KAAK,EAAE,KAAK;CASf;;AAXD,AAGI,IAHA,CAGA,CAAC,CAAA;EACG,KAAK,EAAE,KAAK;EACZ,eAAe,EAAE,IAAI;CAKxB;;AAVL,AAMQ,IANJ,CAGA,CAAC,AAGI,MAAM,CAAA;EACH,KAAK,EAAE,KAAK;EACZ,eAAe,EAAE,IAAI;CACxB",
+    "sources": [
+        "styles.scss",
+        "app/home/_home.component.scss",
+        "app/register-form/_register-form.component.scss",
+        "app/movie-details/_movie-details.component.scss",
+        "app/login/_login.component.scss",
+        "app/navbar/_navbar.component.scss"
+    ],
+    "names": [],
+    "file": "styles.css"
+}

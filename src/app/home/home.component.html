@@ -1,0 +1,20 @@
+<div class="container py-5">
+
+    <div class="row">
+      <input [(ngModel)]='term' type="text" class="form-control m-auto" style="width: 80%;">
+      <div class="col-md-6 d-flex align-items-center ">
+        <h2> Trending Movies <br>
+          on TV</h2>
+      </div>
+        <div *ngFor='let movie of trendingMovies | search:term' class="col-3 my-3 text-center">
+          <a [routerLink]="['/movieDetails',movie.id]">
+            <img [src]='imgUrl+movie.poster_path' class="w-100 rounded">  
+            <span class="text-white d-block mt-3">{{movie.title}}</span>
+            <span>{{ movie.overview | slice:0:50}}</span>
+          </a>
+          <div class="">
+            
+          </div>
+        </div>
+    </div>
+</div>
